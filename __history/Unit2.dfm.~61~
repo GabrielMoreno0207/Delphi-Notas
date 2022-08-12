@@ -1,0 +1,170 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Notas'
+  ClientHeight = 311
+  ClientWidth = 349
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 114
+    Width = 349
+    Height = 197
+    TabStop = False
+    Align = alBottom
+    Color = clWhite
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitTop = 120
+    ExplicitWidth = 466
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 349
+    Height = 114
+    Align = alClient
+    TabOrder = 1
+    ExplicitLeft = 176
+    ExplicitTop = 56
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Label1: TLabel
+      Left = 14
+      Top = 8
+      Width = 44
+      Height = 13
+      Caption = 'Mat'#233'ria'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 14
+      Top = 52
+      Width = 66
+      Height = 13
+      Caption = 'Nota 1'#186' bim'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 106
+      Top = 52
+      Width = 66
+      Height = 13
+      Caption = 'Nota 2'#186' bim'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object BitBtn1: TBitBtn
+      Left = 176
+      Top = 83
+      Width = 129
+      Height = 25
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      Kind = bkClose
+      NumGlyphs = 2
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 259
+      Top = 52
+      Width = 46
+      Height = 25
+      Caption = 'Ler'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Button1: TButton
+      Left = 176
+      Top = 52
+      Width = 77
+      Height = 25
+      Caption = '&Gravar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = Button1Click
+    end
+    object edNota2: TEdit
+      Left = 8
+      Top = 70
+      Width = 70
+      Height = 25
+      TabOrder = 3
+      OnKeyPress = edNota2KeyPress
+    end
+    object edNota1: TEdit
+      Left = 100
+      Top = 70
+      Width = 70
+      Height = 25
+      TabOrder = 4
+      OnKeyPress = edNota1KeyPress
+    end
+    object edAluno: TEdit
+      Left = 8
+      Top = 24
+      Width = 297
+      Height = 22
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'EdAluno'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Button3: TButton
+      Left = 311
+      Top = 52
+      Width = 30
+      Height = 56
+      TabOrder = 6
+      OnClick = Button3Click
+    end
+  end
+  object NotificationCenter1: TNotificationCenter
+    Left = 224
+    Top = 192
+  end
+end
